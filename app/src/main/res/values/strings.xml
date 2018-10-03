@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CourtCounter: Badminton</string>
+    <string name="team1">Team A</string>
+    <string name="team2">Team B</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="score">Score</string>
+    <string name="reset">Rematch</string>
+    <string name="dft_score">0</string>
+</resources>

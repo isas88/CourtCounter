@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="border_width">3dp</dimen>
+    <dimen name="margin_sides">20dp</dimen>
+    <dimen name="margin">30dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="margin_top_small">2dp</dimen>
+    <dimen name="margin_bottom">20dp</dimen>
+    <dimen name="text_nrml">20sp</dimen>
+    <dimen name="text_mdm">30sp</dimen>
+    <dimen name="text_large">45sp</dimen>
+</resources>

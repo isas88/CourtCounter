@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:background="@drawable/courtcounter"
+        android:orientation="vertical"
+        android:scaleType="fitCenter" >
+
+        <LinearLayout
+            style="@style/wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Txt_style"
+                    android:text="@string/team2" />
+
+                <Button
+                    android:id="@+id/B2_button"
+                    style="@style/Btn_style"
+                    android:text="@string/player2" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/border_width"
+                    android:layout_marginLeft="@dimen/margin_sides"
+                    android:layout_marginRight="@dimen/margin_sides"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+                    android:id="@+id/B1_button"
+                    style="@style/Btn_style"
+                    android:text="@string/player1" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/border_width"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                style="@style/wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Txt_style"
+                    android:text="@string/team1" />
+
+                <Button
+                    android:id="@+id/A2_button"
+                    style="@style/Btn_style"
+                    android:text="@string/player2" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/border_width"
+                    android:layout_marginLeft="@dimen/margin_sides"
+                    android:layout_marginRight="@dimen/margin_sides"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+                    android:id="@+id/A1_button"
+                    style="@style/Btn_style"
+                    android:text="@string/player1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Txt_style"
+            android:layout_marginTop="@dimen/margin_top_small"
+            android:gravity="center"
+            android:text="@string/score" />
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                style="@style/match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Txt_style"
+                    android:text="@string/team2" />
+
+                <TextView
+                    android:id="@+id/scoreB_text_view"
+                    style="@style/Score_style"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Txt_style"
+                    android:text="@string/team1" />
+
+                <TextView
+                    android:id="@+id/scoreA_text_view"
+                    style="@style/Score_style" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reset_button"
+            style="@style/Btn_style"
+            android:text="@string/reset" />
+
+        <TextView
+            android:id="@+id/message_text_view"
+            style="@style/wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_top"
+            android:textColor="@color/alerttext"
+            android:textSize="@dimen/text_mdm" />
+
+    </LinearLayout>
+
+</ScrollView>
